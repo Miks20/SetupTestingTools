@@ -1,0 +1,37 @@
+teswiz
+external jars
+testng - install from eclipse marketplace
+maven project
+chrome driver is in environment variable in windows
+
+Selenium grid url - http://ipadd:4444
+Jenkins url - http://ipadd:8080
+
+*open cmd > cd to jar file
+-navigate to where stand alone server is
+run selenium standalone jar file
+- java -jar selenium-server-4.2.0.jar standalone
+run selenium hub and node
+-java -jar selenium-server-4.2.0.jar hub
+-java -jar selenium-server-4.2.0.jar node
+-java -jar selenium-server-4.2.0.jar node --detect-drivers true --publish-events tcp://192.168.56.1:4442 --subscribe-events tcp://192.168.56.1:4443
+Distributed mode
+
+
+Selenium desktop testing
+external jars 
+install win app driver
+turn on developer option
+run winappdriver
+uispy for element finder
+
+Appium
+allow debugging mode
+check port on cmd
+
+Setup cypress
+install cypress
+-run in command prompt
+-npm init -y
+-npm install cypress --save-dev
+-npx cypress open
